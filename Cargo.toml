@@ -1,0 +1,9 @@
+[package]
+name = "ttrove_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serenity = { version = "0.10", features = ["client", "gateway", "rustls_backend"] }
+poise = "0.6.1"  # Check for the latest version
